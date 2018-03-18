@@ -1,0 +1,90 @@
+body {
+    background-color: #ECDFBD;
+    color: #20457C;
+    font-family: "helvetica" sans-serif arial;
+}
+
+@font-face {
+    font-family: ManaSPC;
+    src: local("Mana Neue Bold"),
+        local("ManaNeue-Bold"),
+        url(manaspc.ttf);
+    font-weight: bold;
+}
+
+h1 {
+    font-family: ManaSPC;
+    padding-bottom: 1.5em;
+}
+
+#botnav {
+    list-style: none;
+    text-align: center;
+}
+
+#botnav li {
+    display: inline-block;
+    font-size: .75em;
+}
+
+a {
+    color: #FB6648;
+}
+
+#portrait {
+    width: 20em;
+    height: 20em;
+    float: right;
+}
+
+#main {
+    height: 30em;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+#main p {
+    line-height: 3em;
+}
+
+#botnav li:not(:last-child) { 
+    border-right:solid 1px #20457C;
+    padding-right: .2em;
+}
+
+#resume {
+    width: 20em;
+    height: 5em;
+    line-height: 4.5em;
+    font-size: 2em;
+}
+
+table img {
+    height: 10em;
+    width: 10em;
+    display: inline;
+}
+
+th {
+    font-family: ManaSPC;
+}
+
+.table, form {
+    
+}
+
+form input, form textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
+textarea {
+    width: 35em;
+    height: 20em;
+}
+
+em {
+    font-size: .80em;
+}
